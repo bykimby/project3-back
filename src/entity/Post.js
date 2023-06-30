@@ -13,6 +13,11 @@ const postSchema = new EntitySchema({
 			type: 'varchar',
 			length: 255,
 		},
+		author: {
+			type: 'varchar',
+			length: 255,
+			nullable: true,
+		},
 	},
 });
 
