@@ -16,4 +16,4 @@ const postSchema = new EntitySchema({
 	},
 });
 
-export default prfSchema;
+export default postSchema;
