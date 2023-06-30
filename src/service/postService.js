@@ -6,7 +6,7 @@ const insertPost = async (name) => {};
 
 export const getPostList = async () => {
 	try {
-		const postList = await prfRepository.find();
+		const postList = await postRepository.find();
 		return postList;
 	} catch (err) {
 		console.error(err);
